@@ -1,0 +1,30 @@
+.container {
+    position: relative;
+    margin: calc((100vh - 500px)/2) calc((100% - 400px)/2);
+    /* 이건 몰라서 답 봤음 직접 계산해서 가운데 맞춤하기*/
+}
+
+.bg {
+    background-image: url(../image/bg1.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+}
+
+.leftBtn,
+.rightBtn {
+    height: 30px;
+    padding: 0 10px 0;
+    background-color: darkcyan;
+    position: absolute;
+}
+
+.leftBtn {
+    right: 420px;
+    top: 50%;
+}
+
+.rightBtn {
+    left: 420px;
+    top: 50%;
+}
